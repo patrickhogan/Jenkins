@@ -38,6 +38,7 @@ Pods
 /fingerprints/
 /shelvedProjects/
 /updates/
+.jenkins/updates
  
 # Tools that Jenkins manages
 /tools/
@@ -57,7 +58,6 @@ nextBuildNumber
 modules/
 
 updategit.sh
-config.xml
 .CFUserTextEncoding
 .DS_Store
 .Extensis/
