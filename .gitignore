@@ -55,7 +55,8 @@ lastSuccessful
 nextBuildNumber
 modules/
 
-
+updategit.sh
+config.xml
 .CFUserTextEncoding
 .DS_Store
 .Extensis/

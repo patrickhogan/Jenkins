@@ -7,7 +7,7 @@ cd $JENKINS_HOME
 git add .jenkins/jobs
 git add jobs
 
-echo added jobs
+echo “***** added files to git”
  
 # mark as deleted anything that's been, well, deleted
 to_remove=`git status | grep "deleted" | awk '{print $3}'`
@@ -17,11 +17,11 @@ if [ -n "$to_remove" ]; then
 fi
  
 git commit -am "Automated Jenkins commit"
-echo commited
+echo “***** committed files to git”
 
 git push -q origin JENKINS
-echo pushed
+echo “***** pushed files to origin JENKINS”
 
-exit
+return
 
 
