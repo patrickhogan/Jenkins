@@ -22,6 +22,6 @@ echo “***** committed files to git”
 git push -q origin JENKINS
 echo “***** pushed files to origin JENKINS”
 
-return
+exit
 
 
