@@ -121,6 +121,5 @@ secret.key.not-so-secret
 secrets/
 sidebar-link.xml
 testflight.TestflightRecorder.xml
-testparsing
 userContent/
 users/

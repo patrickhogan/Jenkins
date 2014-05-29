@@ -99,7 +99,7 @@ pod install</command>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
-      <buildIpa>true</buildIpa>
+      <buildIpa>false</buildIpa>
       <generateArchive>false</generateArchive>
       <unlockKeychain>true</unlockKeychain>
       <keychainName>none (specify one below)</keychainName>
