@@ -29,6 +29,7 @@ Pods
 *.bak
 *.jar
 *.json
+*.zip
  
 # Generated Jenkins state
 /.owner
