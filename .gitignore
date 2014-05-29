@@ -19,3 +19,106 @@ DerivedData
 
 #CocoaPods
 Pods
+
+#
+# The following ignores...
+# Miscellaneous Jenkins litter
+*.log
+*.tmp
+*.old
+*.bak
+*.jar
+*.json
+ 
+# Generated Jenkins state
+/.owner
+/secret.key
+/queue.xml
+/fingerprints/
+/shelvedProjects/
+/updates/
+ 
+# Tools that Jenkins manages
+/tools/
+ 
+# Extracted plugins
+plugins/
+ 
+# monitoring plugin files
+monitoring/
+ 
+# Job state
+builds/
+workspace/
+lastStable
+lastSuccessful
+nextBuildNumber
+modules/
+
+
+.CFUserTextEncoding
+.DS_Store
+.Extensis/
+.Trash/
+.bash_history
+.cocoapods/
+.gem/
+.lesshst
+.viminfo
+Audit.log.0
+Audit.log.0.1
+Audit.log.0.1.lck
+Audit.log.0.2
+Audit.log.0.2.lck
+Audit.log.0.3
+Audit.log.0.3.lck
+Audit.log.0.lck
+C4oD/
+Desktop/
+Documents/
+Downloads/
+Jenkins/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+README.md
+au.com.rayh.GlobalConfigurationImpl.xml
+audit-trail.xml
+build-failure-analyzer.xml
+codesign.command
+com.cloudbees.jenkins.GitHubPushTrigger.xml
+config copy.xml
+credentials.xml
+hudson.maven.MavenModuleSet.xml
+hudson.model.UpdateCenter.xml
+hudson.plugins.git.GitSCM.xml
+hudson.plugins.git.GitTool.xml
+hudson.plugins.logparser.LogParserPublisher.xml
+hudson.scm.CVSSCM.xml
+hudson.scm.SubversionSCM.xml
+hudson.tasks.Ant.xml
+hudson.tasks.Mailer.xml
+hudson.tasks.Maven.xml
+hudson.tasks.Shell.xml
+hudson.triggers.SCMTrigger.xml
+identity.key
+jenkins.model.ArtifactManagerConfiguration.xml
+jenkins.model.JenkinsLocationConfiguration.xml
+jenkins.mvn.GlobalMavenConfig.xml
+jenkins.security.QueueItemAuthenticatorConfiguration.xml
+log/
+logs/
+nodeMonitors.xml
+org.jenkins.ci.plugins.autorefresh.ConfigAutoRefresh.xml
+org.jenkinsci.plugins.gitclient.JGitTool.xml
+scm-sync-configuration.xml
+scm-sync-configuration/
+secret.key.not-so-secret
+secrets/
+sidebar-link.xml
+testflight.TestflightRecorder.xml
+testparsing
+userContent/
+users/
