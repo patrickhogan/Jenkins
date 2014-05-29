@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Hello Mother and Father</description>
+  <description>Hello Mother and Father and Children</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.6.0">
