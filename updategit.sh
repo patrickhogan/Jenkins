@@ -22,5 +22,6 @@ echo commited
 git push -q origin JENKINS
 echo pushed
 
-quit
+exit
+
 
