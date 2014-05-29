@@ -4,8 +4,7 @@
 cd $JENKINS_HOME
  
 # Add any new files
-git add .jenkins/jobs
-git add jobs
+git add .
 
 echo “***** added files to git”
  
