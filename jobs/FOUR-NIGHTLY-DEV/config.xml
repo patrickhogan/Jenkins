@@ -83,6 +83,34 @@ pod install</command>
       <ipaOutputDirectory>ipa</ipaOutputDirectory>
       <provideApplicationVersion>false</provideApplicationVersion>
     </au.com.rayh.XCodeBuilder>
+    <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.4.2">
+      <cleanBeforeBuild>false</cleanBeforeBuild>
+      <cleanTestReports>false</cleanTestReports>
+      <configuration>Adhoc</configuration>
+      <target>FourTests</target>
+      <sdk></sdk>
+      <symRoot></symRoot>
+      <configurationBuildDir>WORKSPACE}/output</configurationBuildDir>
+      <xcodeProjectPath>C4oD</xcodeProjectPath>
+      <xcodeProjectFile></xcodeProjectFile>
+      <xcodebuildArguments>test -sdk iphonesimulator7.1 ARCHS=&quot;i386&quot; ONLY_ACTIVE_ARCH=NO GCC_PREPROCESSOR_DEFINITIONS=&quot;USE_PRODUCTION_RESOURCES=YES TEST_VIDEO_MONITOR=YES DEBUG=YES&quot;</xcodebuildArguments>
+      <xcodeSchema>FourTestingUnit</xcodeSchema>
+      <xcodeWorkspaceFile>Four</xcodeWorkspaceFile>
+      <embeddedProfileFile></embeddedProfileFile>
+      <cfBundleVersionValue></cfBundleVersionValue>
+      <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
+      <buildIpa>true</buildIpa>
+      <generateArchive>false</generateArchive>
+      <unlockKeychain>true</unlockKeychain>
+      <keychainName>none (specify one below)</keychainName>
+      <keychainPath>/Users/Jenkins/Library/Keychains/login.keychain</keychainPath>
+      <keychainPwd>hello</keychainPwd>
+      <codeSigningIdentity></codeSigningIdentity>
+      <allowFailingBuildResults>false</allowFailingBuildResults>
+      <ipaName>4oD-$TEST{VERSION}-${BUILD_DATE}</ipaName>
+      <ipaOutputDirectory></ipaOutputDirectory>
+      <provideApplicationVersion>false</provideApplicationVersion>
+    </au.com.rayh.XCodeBuilder>
   </builders>
   <publishers>
     <hudson.tasks.test.AggregatedTestResultPublisher>
