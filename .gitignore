@@ -30,6 +30,7 @@ Pods
 *.jar
 *.json
 *.zip
+*.txt
  
 # Generated Jenkins state
 /.owner
