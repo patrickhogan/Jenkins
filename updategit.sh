@@ -4,7 +4,9 @@
 cd $JENKINS_HOME
  
 # Add any new files
-git add .
+git add .jenkins/jobs
+git add jobs
+
 echo added jobs
  
 # mark as deleted anything that's been, well, deleted
